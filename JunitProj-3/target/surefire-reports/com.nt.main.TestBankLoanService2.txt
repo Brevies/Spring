@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.nt.main.TestBankLoanService2
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 45.046 s <<< FAILURE! - in com.nt.main.TestBankLoanService2
+testcaclSimpleIntrestAmountWithTimer  Time elapsed: 15.032 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: execution exceeded timeout of 5000 ms by 10009 ms
+	at com.nt.main.TestBankLoanService2.testcaclSimpleIntrestAmountWithTimer(TestBankLoanService2.java:20)
+

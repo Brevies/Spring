@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: com.nt.main.TestCensusService
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 4, Errors: 1, Skipped: 0, Time elapsed: 0.269 s <<< FAILURE! - in com.nt.main.TestCensusService
+testSayHello{String}  Time elapsed: 0.063 s  <<< ERROR!
+org.junit.jupiter.api.extension.ParameterResolutionException: No ParameterResolver registered for parameter [java.lang.String arg0] in method [public void com.nt.main.TestCensusService.testSayHello(java.lang.String)].
+
+testIsOdd{int}[1]  Time elapsed: 0.051 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.nt.main.TestCensusService.testIsOdd(TestCensusService.java:35)
+
+testIsOdd{int}[3]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.nt.main.TestCensusService.testIsOdd(TestCensusService.java:35)
+
+testIsOdd{int}[4]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.nt.main.TestCensusService.testIsOdd(TestCensusService.java:35)
+
+testIsOdd{int}[6]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.nt.main.TestCensusService.testIsOdd(TestCensusService.java:35)
+
